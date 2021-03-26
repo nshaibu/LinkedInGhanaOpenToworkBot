@@ -3577,3 +3577,362 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/d5yiyfyjx3i27r5y0f282ss58
 JavaScript warning: https://static-exp1.licdn.com/sc/h/d5yiyfyjx3i27r5y0f282ss58, line 22717: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://static-exp1.licdn.com/sc/h/d5yiyfyjx3i27r5y0f282ss58, line 1135: TypeError: Network request failed
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1616757011345	Marionette	INFO	Stopped listening on port 55151
+[Parent 17959, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 17959, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 17959, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 17959, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 17959, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 17959, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1616757013484	Marionette	INFO	Stopped listening on port 55605
+1616763374102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofile2mHsnR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616763376166	Marionette	INFO	Listening on port 63910
+1616763376189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+1616763641163	Marionette	INFO	Stopped listening on port 63910
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616763647434	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofileOpblAm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616763649362	Marionette	INFO	Listening on port 64101
+1616763649385	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+1616763765800	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofileJplFx2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616763767765	Marionette	INFO	Listening on port 64334
+1616763767882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+1616763786677	Marionette	INFO	Stopped listening on port 64101
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616764536314	Marionette	INFO	Stopped listening on port 64334
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616764544273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilelO4zoT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616764546190	Marionette	INFO	Listening on port 64615
+1616764546253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 20853: Error: Failed to preload bundles: msg-overlay
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616764604984	Marionette	INFO	Stopped listening on port 64615
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616764610097	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofileXkrCJt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616764611961	Marionette	INFO	Listening on port 64786
+1616764611978	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 455: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616764729048	Marionette	INFO	Stopped listening on port 64786
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616764949863	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilei9Y1p3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616764951712	Marionette	INFO	Listening on port 64966
+1616764951744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+1616765021412	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofile4vs7Kp"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616765022866	Marionette	INFO	Listening on port 65099
+1616765022979	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616765487315	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofileER3b6C"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616765489224	Marionette	INFO	Listening on port 65356
+1616765489302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 22722: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 22722: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1616767718051	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilezrIneJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616767719453	Marionette	INFO	Listening on port 49549
+1616767719505	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+1616767870989	Marionette	INFO	Stopped listening on port 64966
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 22722: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 22722: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1616768201894	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1616768348357	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilevRROx6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616768350256	Marionette	INFO	Listening on port 49836
+1616768350321	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+1616768482463	Marionette	INFO	Stopped listening on port 49836
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616768541907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofileri68t0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616768543661	Marionette	INFO	Listening on port 50002
+1616768543678	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 227: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2569, IPC I/O Child] WARNING: pipe error: Socket is not connected: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_posix.cc:697
+Exiting due to channel error.
+1616768772633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilefJKj0P"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616768774375	Marionette	INFO	Listening on port 50178
+1616768774411	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/2q17megcr8xilpq9fzo2slydv, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1616768843527	Marionette	INFO	Stopped listening on port 50178
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616769203945	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilem2Ya97"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616769205737	Marionette	INFO	Listening on port 50353
+1616769205818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1616769468512	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofilez82ePU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616769470331	Marionette	INFO	Listening on port 50501
+1616769470389	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d5yiyfyjx3i27r5y0f282ss58, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d5yiyfyjx3i27r5y0f282ss58, line 4285: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1616770293453	Marionette	INFO	Stopped listening on port 50501
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -1,5 +1,5 @@
 import click
-import time, json
+import time, csv, json
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -12,7 +12,17 @@ from selenium.webdriver.firefox.options import Options
 WAIT_PERIOD = 10
 
 
-def get_total_search_result(driver):
+def save_execution_context(context):
+    conf = {
+        "profile_urls": context.user_profile_urls,
+        "current_page": context.current_page,
+        "total_search_results": context.total_search_results
+    }
+    with open("saved_content.json", "w") as fd:
+        fd.write(json.dumps(conf))
+
+
+def get_total_search_result(driver, context):
     try:
         WebDriverWait(driver, WAIT_PERIOD).until(EC.presence_of_element_located(
             (By.XPATH, '//main[@id="main"]/div/div/div')
@@ -24,6 +34,7 @@ def get_total_search_result(driver):
         value = int(str(value))
     except Exception as e:
         print(e)
+        save_execution_context(context)
         return None
     return value
 
@@ -41,17 +52,19 @@ def get_searched_user_profile(context, driver):
         if link_elem:
             href = link_elem.get_attribute("href")
             href = str(href)
-            if href.rfind("GLOBAL_SEARCH_HEADER") < 0:
-                context.user_profile_urls.append(href)
+            if href.rfind("FACETED_SEARCH") < 0:
                 click.echo(click.style(f"Added: {href}.", fg="blue"))
+                context.user_profile_urls.append(href)
 
     for elem in elements:
         get_user_profile_url(elem)
 
 
 class LinkedInScrapper(object):
+    INITIAL_OPEN_TO_WORK_URL = "https://www.linkedin.com/search/results/people/?geoUrn=%5B%22105769538%22%5D&keywords=open%20to%20work&origin=FACETED_SEARCH&page={}"
 
-    INITIAL_OPEN_TO_WORK_URL = "https://www.linkedin.com/search/results/people/?geoUrn=%5B%22105769538%22%5D&keywords=open%20to%20work&origin=GLOBAL_SEARCH_HEADER&page={}"
+    # INITIAL_OPEN_TO_WORK_URL =
+    # "https://www.linkedin.com/search/results/people/?geoUrn=%5B%22105769538%22%5D&keywords=open%20to%20work&origin=GLOBAL_SEARCH_HEADER&page={}"
 
     def __init__(self, email, password, headless=False, page_nums=None, num_pages=10):
         options = Options()
@@ -71,7 +84,7 @@ class LinkedInScrapper(object):
         self.email = email
         self.password = password
 
-        self.user_profile_urls = []
+        self.user_profile_urls = ["https://www.linkedin.com/in/jonathan-naf-8222b920a/"]
         self.user_emails = []
         self.current_page = 1
         self.total_search_results = 0
@@ -91,6 +104,18 @@ class LinkedInScrapper(object):
         password_element.send_keys(self.password)
 
         sign_in_btn_element.click()
+
+    @classmethod
+    def _load_save_context(cls, instance):
+        with open("saved_content.json", "r") as fd:
+            try:
+                data = json.loads(fd.read())
+                instance.user_profile_urls = data['profile_urls']
+                instance.current_page = data['current_page']
+                instance.total_search_results = data['total_search_results']
+            except Exception:
+                pass
+        return instance
 
     @property
     def number_of_pages(self):
@@ -112,24 +137,27 @@ class LinkedInScrapper(object):
             print(e)
 
     def search_for_people_open_to_work(self):
-        click.echo(click.style(f"Opening page {self.current_page} for people open to work", fg="blue"))
-        self.driver.get(self.INITIAL_OPEN_TO_WORK_URL.format(self.current_page))
-        click.echo(click.style(f"Page {self.current_page} opened.", fg="green"))
-        if self.total_search_results == 0:
-            total_results = get_total_search_result(self.driver)
-            if total_results:
-                self.total_search_results = total_results
-                click.echo(click.style(f"Total number of result: {self.total_search_results}", fg="green"))
-            else:
-                click.echo(click.style("Getting total search results failed."
-                                       " Sorry the browser context ends here. Kindly try again", fg="red"))
-        get_searched_user_profile(self, self.driver)
-        click.echo(click.style("Read {} user profile urls".format(len(self.user_profile_urls))))
-        self.current_page += 1
+        try:
+            click.echo(click.style(f"Opening page {self.current_page} for people open to work", fg="blue"))
+            self.driver.get(self.INITIAL_OPEN_TO_WORK_URL.format(self.current_page))
+            click.echo(click.style(f"Page {self.current_page} opened.", fg="green"))
+            if self.total_search_results == 0:
+                total_results = get_total_search_result(self.driver, self)
+                if total_results:
+                    self.total_search_results = total_results
+                    click.echo(click.style(f"Total number of result: {self.total_search_results}", fg="green"))
+                else:
+                    click.echo(click.style("Getting total search results failed."
+                                           " Sorry the browser context ends here. Kindly try again", fg="red"))
+            get_searched_user_profile(self, self.driver)
+            click.echo(click.style("Read {} user profile urls".format(len(self.user_profile_urls))))
+            self.current_page += 1
 
-        click.echo("-----------------------------------------------")
-        click.echo(click.style("Waiting for 3 seconds before making the next request.", fg="blue"))
-        time.sleep(3)
+            click.echo("-----------------------------------------------")
+            click.echo(click.style("Waiting for 3 seconds before making the next request.", fg="blue"))
+            time.sleep(3)
+        except Exception as e:
+            save_execution_context(self)
 
     def profile_contact(self, profile_url):
         click.echo(click.style(f"Processing user profile: {profile_url}.", underline=True, bold=True))
@@ -147,23 +175,49 @@ class LinkedInScrapper(object):
             contact_modal = self.driver.find_element_by_id("artdeco-modal-outlet")
 
             WebDriverWait(contact_modal, WAIT_PERIOD).until(EC.presence_of_element_located((By.CLASS_NAME, 'ci-email')))
+
+            username_div = contact_modal.find_element_by_css_selector('div.artdeco-modal__header')
+            h1_header_elem = username_div.find_element_by_tag_name("h1")
             email_section = contact_modal.find_element_by_css_selector('section.ci-email')
             email_elem = email_section.find_element_by_tag_name("a")
 
             if email_elem:
+                username = h1_header_elem.text
+
+                first_name = ""
+                last_name = ""
+
+                if username:
+                    username = username.split(" ")
+                    if len(username) == 1:
+                        first_name = username[0]
+                    elif len(username) == 2:
+                        first_name = username[0]
+                        last_name = username[1]
+                    else:
+                        first_name, *last_name = username
+                        last_name = " ".join(last_name)
+
                 self.user_emails.append({"email": email_elem.text,
-                                         "profile_url": profile_url})
-                print(email_elem.text)
+                                         "first_name": first_name,
+                                         "last_name": last_name})
 
         except Exception as e:
+            save_execution_context(self)
             print(e)
 
         time.sleep(3)
 
     def write_user_email_address_to_file(self):
         if self.user_emails:
-            with open("user_emails.json", "w") as fd:
-                fd.write(json.dumps(self.user_emails))
+            with open("user_emails.csv", "w") as fd:
+                fieldnames = ['first_name', 'last_name', "email"]
+                writer = csv.DictWriter(fd, fieldnames=fieldnames)
+
+                writer.writeheader()
+                for data in self.user_emails:
+                    writer.writerow(data)
+
         else:
             click.echo(click.style("NO Email detected.", fg="red", bold=True))
 
