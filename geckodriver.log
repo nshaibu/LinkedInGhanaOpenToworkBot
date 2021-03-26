@@ -3936,3 +3936,29 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: Inv
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1616770407891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "start-maximized" "disable-infobars" "--disable-extensions" "--no-sandbox" "--disable-application-cache" "--disable-gpu" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "/var/folders/mn/4fy09xmx1zv45h39vr_1rcb00000gq/T/rust_mozprofileCWLv9J"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616770409291	Marionette	INFO	Listening on port 50856
+1616770409344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/b8nmakf6h0x06rajxf1vxrb8g
+JavaScript error: https://static-exp1.licdn.com/sc/h/dh3h00l9w9zfe1sc8k082ieb8, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/5g6kvbdyxoays49e1fd9slioa
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 4285: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 22722: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4ddqygoecuhi76y8ma8wfh68m, line 22722: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.

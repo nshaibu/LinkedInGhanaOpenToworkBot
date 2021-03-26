@@ -29,7 +29,7 @@ def main(email, password, headless):
 
     while True:
         scrapper.search_for_people_open_to_work()
-        if scrapper.current_page == 5:  # scrapper.number_of_pages:
+        if scrapper.current_page == scrapper.number_of_pages:
             break
 
     click.echo(click.style("GETTING USER PROFILE", bold=True, underline=True, fg="blue"))
